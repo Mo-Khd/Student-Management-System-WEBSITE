@@ -1,0 +1,125 @@
+ #noti {
+            display:block;
+            list-style:none;
+        }
+        #noti li {
+            float:left;
+            font:14px;
+            margin:3px 0;
+        }
+        #noti li a {
+            color:#FFF;
+            text-decoration:none;
+            padding:6px 15px;
+            cursor:pointer;
+        }
+        #noti li a:hover {
+            background:#425B90;
+            text-decoration:none;
+            cursor:pointer;
+        }
+        
+        #noti_Container {
+            position:relative;
+        }
+       
+        /* A CIRCLE LIKE BUTTON IN THE TOP MENU. */
+        #noti_Button {
+            margin:-3px 10px 0 10px;
+            cursor:pointer;
+        }
+        
+        /* THE POPULAR RED NOTIFICATIONS COUNTER. */
+        #noti_Counter {
+            display:block;
+            position:absolute;
+          	width: 100%
+            padding:1px 3px;
+            margin:-8px 0 0 25px;
+            z-index:1;
+        }
+        
+        /* THE NOTIFICAIONS WINDOW. THIS REMAINS HIDDEN WHEN THE PAGE LOADS. */
+        #notifications {
+            display:none;
+            width:430px;
+            position:absolute;
+            top:30px;
+            left:0;
+            background:#FFF;
+            border:solid 1px rgba(100, 100, 100, .20);
+            -webkit-box-shadow:0 3px 8px rgba(0, 0, 0, .20);
+            z-index: 0;
+        }
+      
+      
+        /* AN ARROW LIKE STRUCTURE JUST OVER THE NOTIFICATIONS WINDOW */
+        #notifications:before { 
+            content: '';
+            display:block;
+            width:0;
+            height:0;
+            color:transparent;
+            border:10px solid #CCC;
+            border-color:transparent transparent #FFF;
+            margin-top:-20px;
+            margin-left:10px;
+        }
+      
+      	#contents {
+      	    margin: 0px 10px 0px 10px;
+          	height: 270px;
+          	width: 410px;
+  		  	overflow-y: scroll;
+  		  	overflow-x: clip;
+      }
+      
+      	#content {
+          	padding: 0px 10px 0px 10px;
+          	width: 410px;
+          	word-wrap: break-word;
+      }
+      
+      #date{
+        font-size: 13px;
+        margin-left: 10px;
+        margin-bottom: 16px;
+        color: #65676b;
+      }
+      
+      .highlighted {
+          background-color: #eaedf9;
+          border-radius: 10px;
+          margin-right: 2px;
+          box-shadow: 1px 1px 4px 0px #dfd1ff;
+        }
+        
+        h5 {
+            display:block;
+            color:#333; 
+            background:#FFF;
+            font-weight:bold;
+            font-size:13px;    
+            padding:8px;
+            margin:0;
+            margin-bottom: 10px;
+            border-bottom:solid 1px rgba(100, 100, 100, .30);
+        }
+
+        .seeAll {
+            background:#F6F7F8;
+            padding:8px;
+            font-size:12px;
+            font-weight:bold;
+            border-top:solid 1px rgba(100, 100, 100, .30);
+            text-align:center;
+        }
+        .seeAll a {
+            color:#3b5998;
+        }
+        .seeAll a:hover {
+            background:#F6F7F8;
+            color:#3b5998;
+            text-decoration:underline;
+        }
+      

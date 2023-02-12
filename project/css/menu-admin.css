@@ -1,0 +1,118 @@
+button:active,
+button:focus,
+button:hover{
+     background-color: #8F5CBF !important;
+     border:none !important;
+     outline:none !important;
+     box-shadow: none !important;
+     color: #fff !important;
+     }
+     
+     a {
+         color: #a57ccb !important;
+      }
+      
+    a:active,
+    a:focus,
+    a:hover{
+     color: #8F5CBF !important;
+     box-shadow: none !important;
+     }
+     
+    input[type='text']:active,
+    input[type='text']:focus,
+    input[type='text']:hover{
+        border-color:#8F5CBF !important;
+        outline:none !important;
+        box-shadow: none !important;
+    }
+    
+    input[type='number']:active,
+    input[type='number']:focus,
+    input[type='number']:hover{
+        border-color:#8F5CBF !important;
+        outline:none !important;
+        box-shadow: none !important;
+    }
+    
+    input[type='date']:active,
+    input[type='date']:focus,
+    input[type='date']:hover{
+        border-color:#8F5CBF !important;
+        outline:none !important;
+        box-shadow: none !important;
+    }
+    
+    select:active,
+    select:focus,
+    select:hover{
+        border-color:#8F5CBF !important;
+        outline:none !important;
+        box-shadow: none !important;
+    }
+
+.form1 {
+display: grid;
+}
+
+.navbar1 {
+  overflow: hidden;
+  background-color: #333 !important;
+}
+
+.navbar1 a {
+  float: left;
+  font-size: 16px;
+  color: white !important;
+  text-align: center;
+  padding: 25px;
+  text-decoration: none;
+}
+
+.subnav1 {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav1 .subnav1btn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white !important;
+  padding: 25px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar1 a:hover, .subnav1:hover .subnav1btn {
+  background-color: #8F5CBF !important;
+  color:white !important;
+}
+
+.subnav1-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #8F5CBF !important;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav1-content a {
+  float: left;
+  color: white !important;
+  text-decoration: none;
+}
+
+.subnav1-content a:hover {
+  background-color: #eee !important;
+  color: black !important;
+}
+
+.subnav1:hover .subnav1-content {
+  display: block;
+}
+.selected1 {
+background-color: #a57ccb !important;
+}
